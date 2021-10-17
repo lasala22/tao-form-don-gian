@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <style>
+        body{
+            background-color: khaki;
+        }
+        h2{
+            color: blue;
+            background-color:cyan;
+        }
+        label{
+            color:darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+    <form action="">
+    <div><label for="name">Họ và tên</label><input type="text" id="name"></div>
+    <div><label for="birth">Ngày sinh</label><input type="text" id="birth"></div>
+    <div><label for="gender">Giới tính</label>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Nam</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Nữ</label>
+    </div>
+    <div><label for="adress">Địa chỉ</label><textarea name="" id="adress" cols="30" rows="10"></textarea></div>
+    <div><label for="class">Lớp</label><select name="" id="class">
+        <option value="chonlop">-Chọn lớp-</option>
+        <option value="1">Lớp 1</option>
+        <option value="2">Lớp 2</option>
+        <option value="3">Lớp 3</option>
+    </select></div>
+    <div><label for="email">Email</label><input type="text" id="email"></div>
+    <div><label for="phone">Điện thoại</label><input type="text" id="phone"></div>
+    <div><button type="submit">Đăng ký</button> <button type="reset">Nhập lại</button></div>
+    </form>
+</body>
+</html>
